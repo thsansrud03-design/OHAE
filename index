@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OHAE | 오해하셨군요?</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      width: 100%;
+      min-height: 100%;
+      background-color: #FAF7F9;
+    }
+
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .main-image {
+      display: block;
+      width: 100%;
+      max-width: 1200px;
+      max-height: 100dvh;
+      height: auto;
+      object-fit: contain;
+    }
+  </style>
+</head>
+
+<body>
+  <img
+    class="main-image"
+    src="./140.png"
+    alt="힝, 속았지? QR코드를 찍으면 웹사이트가 나올 거라고 생각하셨나요? 그것도 하나의 오해랍니다."
+  >
+</body>
+</html>
